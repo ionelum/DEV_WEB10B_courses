@@ -1,1 +1,3 @@
-# DEV_WEB10B_courses
+# Les cours de la formation Développeur web - DEV WEB 10B
+
+# 12 déc. 2022 - 31 mars 2023
