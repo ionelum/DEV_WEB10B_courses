@@ -1,6 +1,6 @@
 body {
-    color: #40514e;
-    background-color: #e4f9f5;
+    color: #bab4ab;
+    background-color: #0c423b;
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
@@ -15,9 +15,9 @@ body {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-size: 16px;
+    font-weight: bold;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
@@ -33,5 +33,5 @@ body {
 }
 
 a {
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
