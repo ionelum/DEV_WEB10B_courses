@@ -35,3 +35,7 @@ body {
 a {
     margin: 10px 10px;
 }
+
+h6 {
+    margin-bottom: 0;
+}
