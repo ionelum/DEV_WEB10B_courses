@@ -1,5 +1,10 @@
 const allVideos = [
     {
+    date: "12.01.2023",
+    instructor: "Mohamed",
+    url: "MvLTB5exy_c"
+    },
+    {
     date: "18.01.2023",
     instructor: "Frederic",
     url: "e5JlWrnMmjM"
@@ -15,9 +20,14 @@ const allVideos = [
     url: "B0weS75OvTc"
     },
     {
+    date: "24.01.2023",
+    instructor: "Frederic",
+    url: "ApK5OWviLdc"
+    },
+    {
     date: "25.01.2023",
     instructor: "Frederic",
-    url: "cVMtYmOuPls"
+    url: "UrRF5GE1mwI"
     },
     {
     date: "26.02.2023",
@@ -52,12 +62,7 @@ const allVideos = [
     {
     date: "03.02.2023",
     instructor: "Cesaire",
-    url: "vuSHVXLwiKQ"
-    },
-    {
-    date: "03.02.2023",
-    instructor: "Cesaire",
-    url: "qMci9qVD-r0"
+    url: "S2LXoCVlYLw"
     },
     {
     date: "06.02.2023",
@@ -67,12 +72,7 @@ const allVideos = [
     {
     date: "07.02.2023",
     instructor: "Cesaire",
-    url: "aYCZL8MUbog"
-    },
-    {
-    date: "07.02.2023",
-    instructor: "Cesaire",
-    url: "7UiYMv-6ERo"
+    url: "ETNAsA3n-GU"
     },
     {
     date: "08.02.2023",
@@ -97,12 +97,7 @@ const allVideos = [
     {
     date: "14.02.2023",
     instructor: "Cesaire",
-    url: "QCCV2hNggCI"
-    },
-    {
-    date: "14.02.2023",
-    instructor: "Cesaire",
-    url: "nbTBJV8hiJk"
+    url: "ABcyRmRUdSw"
     },
     {
     date: "15.02.2023",
