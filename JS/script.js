@@ -1,5 +1,10 @@
 const allVideos = [
     {
+    date: "02.01.2023",
+    instructor: "Mohamed",
+    url: "BZJL78yXrDM"
+    },
+    {
     date: "12.01.2023",
     instructor: "Mohamed",
     url: "MvLTB5exy_c"
@@ -138,24 +143,28 @@ const allVideos = [
 
 var videoList = document.querySelector("#videoList");
 
-function printVideos(instructor) {
+for (let i = 0; i<document.querySelectorAll(".instructor").length; i++) {
+    document.querySelectorAll(".instructor")[i].addEventListener("click", printVideos);
+};
+
+function printVideos() {
     videoList.innerHTML = "";
     for (let i = 0; i < allVideos.length; i++) {
-        if (allVideos[i].instructor == instructor) {
-        videoList.innerHTML +=
-        `
-            <div class="col-lg-3 col-md-6">
-                <div class="card bg-dark">
-                    <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/${allVideos[i].url}?rel=0"
-                        allowfullscreen></iframe>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">${allVideos[i].date}</h5>
-                        <h6>${allVideos[i].instructor}</6>
+        if (allVideos[i].instructor == this.innerHTML) {
+            videoList.innerHTML +=
+            `
+                <div class="col-lg-3 col-md-6">
+                    <div class="card bg-dark">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/${allVideos[i].url}?rel=0"
+                            allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">${allVideos[i].date}</h5>
+                            <h6>${allVideos[i].instructor}</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
             `;
         }
     }
