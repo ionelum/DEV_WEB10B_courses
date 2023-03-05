@@ -1,8 +1,28 @@
 const allVideos = [
     {
+    date: "13.12.2022",
+    instructor: "Numa",
+    url: "BZJL78yXrDM"
+    },
+    {
     date: "02.01.2023",
     instructor: "Mohamed",
     url: "BZJL78yXrDM"
+    },
+    {
+    date: "03.01.2023",
+    instructor: "Mohamed",
+    url: "0PCARTvefN4"
+    },
+    {
+    date: "04.01.2023",
+    instructor: "Mohamed",
+    url: "GbylkzP1iIw"
+    },
+    {
+    date: "05.01.2023",
+    instructor: "Mohamed",
+    url: "K-lr83H4Mjg"
     },
     {
     date: "12.01.2023",
