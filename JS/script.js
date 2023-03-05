@@ -2,7 +2,7 @@ const allVideos = [
     {
     date: "13.12.2022",
     instructor: "Numa",
-    url: "BZJL78yXrDM"
+    url: "tTtsG7tpw7c"
     },
     {
     date: "02.01.2023",
