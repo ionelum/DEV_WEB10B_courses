@@ -39,3 +39,7 @@ a {
 h6 {
     margin-bottom: 0;
 }
+
+.card-body {
+    padding: 4px;
+}

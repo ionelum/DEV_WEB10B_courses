@@ -220,11 +220,11 @@ function printVideos() {
             `
                 <div class="col-lg-3 col-md-6">
                     <div class="card bg-dark">
-                        <div class="ratio ratio-16x9">
+                        <div class="card-body">
+                            <div class="ratio ratio-16x9">
                             <iframe src="https://www.youtube.com/embed/${allVideos[i].url}?rel=0"
                             allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
+                            </div>
                             <h5 class="card-title">${allVideos[i].date}</h5>
                             <h6>${allVideos[i].instructor}</h6>
                         </div>
