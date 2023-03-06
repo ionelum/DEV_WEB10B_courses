@@ -65,6 +65,11 @@ const allVideos = [
     url: "yVeDWNBR34c"
     },
     {
+    date: "11.01.2023",
+    instructor: "Mohamed",
+    url: "HE1TUS0d7go"
+    },
+    {
     date: "12.01.2023",
     instructor: "Mohamed",
     url: "MvLTB5exy_c"
