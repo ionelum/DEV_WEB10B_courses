@@ -214,6 +214,11 @@ const allVideos = [
         instructor: "Cesaire",
         url: "CsT1JKuKgTg",
     },
+    {
+        date: "24.03.2023",
+        instructor: "Laurent",
+        url: "9821ISFToP4",
+    },
 ];
 
 var videoList = document.querySelector("#videoList");
