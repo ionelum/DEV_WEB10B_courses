@@ -224,6 +224,11 @@ const allVideos = [
         instructor: "Amro",
         url: "GIt0QVWxp78",
     },
+    {
+        date: "29.03.2023",
+        instructor: "Amro",
+        url: "J9iMjSzH5uc",
+    },
 ];
 
 var videoList = document.querySelector("#videoList");
